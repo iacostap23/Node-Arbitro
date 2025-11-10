@@ -1,8 +1,9 @@
+// Manejo de noticias del sistema.
+
 import { Router } from "express";
 import { spring } from "../services/springClient.js";
 
 const router = Router();
-
 const NEWS_TARGET = process.env.NEWS_PATH || "/api/news/nba-api";
 
 /**
@@ -124,5 +125,4 @@ router.get("/mock", async (req, res) => {
     });
   }
 });
-
 export default router;
