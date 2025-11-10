@@ -1,3 +1,5 @@
+// Definiendo y agrupando las rutas de las funcionalidades del Árbitro 
+
 import { Router } from "express";
 import perfilRoutes from "./arbitro/perfil.routes.js";
 import asignacionesRoutes from "./arbitro/asignaciones.routes.js";
